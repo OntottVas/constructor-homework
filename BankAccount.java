@@ -4,6 +4,10 @@ public class BankAccount {
     private String accountHolder;
     private double balance;
 
+    public BankAccount() {
+        System.out.println("Constructor called.");
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
