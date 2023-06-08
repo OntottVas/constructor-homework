@@ -6,14 +6,12 @@ public class Main {
         Car defaultCar = new Car();
         System.out.println(defaultCar.getModel()); // Output: Unknown
 
-        BankAccount firstAccount = new BankAccount();
+        BankAccount firstAccount = new BankAccount("000001");
         firstAccount.setAccountHolder("Deborah Granger");
-        firstAccount.setAccountNumber("000001");
         firstAccount.setBalance(1500000);
 
-        BankAccount secondAccount = new BankAccount();
-        secondAccount.setAccountHolder("Lucios Wayne");
-        secondAccount.setAccountNumber("000002");
+        BankAccount secondAccount = new BankAccount("000002");
+        secondAccount.setAccountHolder("Lucius Wayne");
         secondAccount.setBalance(200000);
 
         System.out.println("Name: " + firstAccount.getAccountHolder() +

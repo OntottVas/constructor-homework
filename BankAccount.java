@@ -4,8 +4,8 @@ public class BankAccount {
     private String accountHolder;
     private double balance;
 
-    public BankAccount() {
-        System.out.println("Constructor called.");
+    public BankAccount(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
     public String getAccountNumber() {
