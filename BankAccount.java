@@ -8,6 +8,16 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    public BankAccount(int balance) {
+        this.balance = balance;
+    }
+
+    public BankAccount(String accountNumber, String accountHolder, int balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolder = accountHolder;
+        this.balance = balance;
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
