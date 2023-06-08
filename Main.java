@@ -21,5 +21,10 @@ public class Main {
         System.out.println("Name: " + secondAccount.getAccountHolder() +
                 ", account number: " + secondAccount.getAccountNumber() +
                 ", balance: " + secondAccount.getBalance() + " HUF");
+
+        BankAccount thirdAccount = new BankAccount();
+        System.out.println("Name: " + thirdAccount.getAccountHolder() +
+                ", account number: " + thirdAccount.getAccountNumber() +
+                ", balance: " + thirdAccount.getBalance() + " HUF");
     }
 }

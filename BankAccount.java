@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class BankAccount {
     // TODO
     private String accountNumber;
@@ -18,13 +20,17 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public BankAccount() {
+        this("nnnnnn", "Firstname Family-name", 0);
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
+    /*public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
-    }
+    }*/
 
     public String getAccountHolder() {
         return accountHolder;
